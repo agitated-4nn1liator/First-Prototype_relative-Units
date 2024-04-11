@@ -1,0 +1,35 @@
+/* ================================ */
+/* Global Reset */
+/* ================================ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ================================ */
+/* Seeting up font - Inter by Google Fonts */
+/* ================================ */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* ================================ */
+/* Setting up font - Poppins by Google Fonts */
+/* NOTE: To get other fonts for this typeface visit: https://fonts.google.com/specimen/Poppins?query=poppins */
+/* ================================ */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}

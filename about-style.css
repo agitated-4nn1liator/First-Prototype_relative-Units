@@ -1,0 +1,449 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ================================ */
+/* ================================ */
+/* Header Section */
+/* ================================ */
+/* ================================ */
+
+/* Header Background */
+.header {
+  position: relative;
+  background-image: url(Assets/About-header-png.png);
+  height: 901px;
+  width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Styling major header elements */
+.header-div {
+  display: flex;
+  padding-top: 26px;
+}
+/* Logo of the header section */
+.logo-header {
+  width: 40px;
+  height: auto;
+  margin-left: 8.82vw;
+  padding-right: 1.875vw;
+  margin-right: 1.875vw;
+  border-right: solid #fff 2px;
+}
+/* title of the header section */
+.title-header {
+  color: #fff;
+  font-size: 12px;
+  margin-right: 8.06vw;
+}
+/* Header search Form */
+.header-search-form {
+  display: flex;
+  height: 42px;
+  width: max-content;
+}
+.header-search-form input {
+  width: 19.375vw;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 35px;
+  background: transparent;
+  border: solid #fff 2px;
+  border-radius: 20px;
+  color: #fff;
+}
+.header-search-form input:focus {
+  outline: none;
+}
+/* Removing cross icon from search field */
+/* Compatible for Chrome and Safari */
+.header-search-form input[type="search"]::-webkit-search-decoration,
+.header-search-form input[type="search"]::-webkit-search-cancel-button,
+.header-search-form input[type="search"]::-webkit-search-results-button,
+.header-search-form input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+/* Compatible for Explorer and Edge */
+.header-search-form input[type="search"]::-ms-clear,
+.header-search-form input[type="search"]::-ms-reveal {
+  display: none;
+}
+/* styling the search button in search field of header */
+.search-button {
+  position: relative;
+  left: -33px;
+  top: 1.5px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.search-button:hover {
+  cursor: pointer;
+}
+/* Styling Navigation links in header section */
+.navigation-header {
+  display: flex;
+  gap: 3.26vw;
+  margin-left: 7.7083vw;
+  margin-right: 4.1vw;
+  padding-top: 9px;
+}
+.navigation-header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navigation-header a:hover {
+  cursor: pointer;
+}
+.current-nav {
+  font-weight: 600 !important;
+}
+/* Styling the login/signup button in header */
+.login-button {
+  width: 11.25vw;
+  max-width: 162px;
+  height: 42px;
+  background-color: #c42116;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+.login-button:active {
+  font-weight: bold;
+}
+/* Hero Section */
+.hero-section {
+  margin-top: 92px;
+  margin-left: 11.615vw;
+  width: 496px;
+}
+/* Page Title */
+.page-title {
+  color: #fff;
+  font-size: 40px;
+}
+.page-subtitle {
+  margin-top: 37px;
+  font-size: 16px;
+  color: #fff;
+}
+/* hero-img */
+.hero-img {
+  margin-top: 48px;
+  min-width: 996px;
+  max-width: 1328px;
+  width: 69.1667vw;
+  height: auto;
+}
+/* ========================== */
+/* Article Section */
+/* =========================== */
+.article-section {
+  margin-top: 165px;
+  margin-left: 11.615vw;
+}
+.article-title {
+  width: 124px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px #000;
+}
+.article-arrow {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.divider {
+  width: 372.5px;
+  height: 15px;
+}
+.article-card {
+  margin-top: 35px;
+  min-width: 947px;
+  max-width: 1462px;
+  width: 76.1806vw;
+  height: 381px;
+  position: relative;
+}
+.indication-header {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  position: absolute;
+  top: -31px;
+  right: 88px;
+}
+.flask-logo {
+  width: 40px;
+  height: auto;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #e0effaff;
+}
+.chemical-tag {
+  width: 223px;
+  height: 37.84px;
+  line-height: 37.84px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #e0effaff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  text-align: center;
+}
+.services-card {
+  border: 3px solid #3092dd;
+  border-radius: 5px 20px;
+  box-shadow: 3px 3px #3092dd;
+}
+.department-section {
+  margin-top: 69.5px;
+}
+.department-card {
+  border: 3px solid #4b55ce;
+  border-radius: 20px 5px;
+  box-shadow: 3px 3px #4b55ce;
+}
+/* =============================== */
+/* ================================= */
+/* Team Info */
+/* ================================ */
+/* ================================ */
+.profile-section {
+  position: relative;
+}
+.profile-bg {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+}
+.team-section-div {
+  margin-top: 74px;
+  margin-left: 11.615vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  min-width: 947px;
+  max-width: 1462px;
+  width: 76.1806vw;
+}
+.div-line {
+  width: 354.31px;
+  border-bottom: dashed 2px #000;
+}
+.div-text {
+  font-size: 40px;
+  text-align: center;
+}
+.team-section-text {
+  font-size: 16px;
+  min-width: 947px;
+  max-width: 1462px;
+  width: 62.1528vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+/* Info cards */
+.info-cards-first {
+  display: flex;
+  gap: 62px;
+  width: 1036px;
+  margin: 90px auto 0 auto;
+}
+.info-cards-second {
+  display: flex;
+  gap: 106px;
+  width: 715px;
+  margin: 82px auto 0 auto;
+}
+.info-item {
+  width: 304px;
+  height: 356px;
+  background-color: #131963;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  width: 150px;
+  height: auto;
+}
+.profile-text {
+  color: #fff;
+  font-size: 20px;
+}
+.profile-body {
+  font-weight: 250;
+}
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+.social-links-item {
+  width: 30px;
+  height: 30px;
+}
+.form-button {
+  background: none;
+  border: none;
+}
+.form-button:hover {
+  cursor: pointer;
+}
+/* ================================ */
+/* Footer Section */
+/* ================================ */
+/* Footer top */
+.footer-top {
+  margin-top: 112px;
+  width: 100%;
+  height: max-content;
+  background-color: #1d3140ff;
+  display: flex;
+  position: relative;
+}
+/* Footer-top contents */
+/* Follow-section */
+.follow-section {
+  margin-top: 60px;
+  margin-left: 8.54167vw;
+}
+.logo-footer {
+  width: 67px;
+  height: auto;
+  margin-bottom: 29px;
+}
+.follow-head {
+  font-weight: bold;
+  color: #249ffe;
+  margin-bottom: 38px;
+}
+.follow-body {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.follow-links {
+  display: flex;
+  gap: 1.25vw;
+}
+.follow-buttons {
+  background: none;
+  border: none;
+}
+.follow-buttons:hover {
+  cursor: pointer;
+}
+/* Support Section */
+.support-section {
+  margin-top: 58px;
+  margin-left: 22.222vw;
+}
+.support-title {
+  color: #249ffe;
+  font-size: 18px;
+  font-weight: bold;
+}
+.support-nav {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  font-size: 18px;
+}
+.support-links {
+  text-decoration: none;
+  color: #fff;
+}
+/* Contact Section */
+.contact-section {
+  margin-top: 58px;
+  margin-left: 10.06944vw;
+}
+.contact-head {
+  color: #249ffe;
+  font-weight: bold;
+  font-size: 18px;
+}
+.contact-body {
+  color: #fff;
+  font-size: 18px;
+}
+/* Location */
+.location-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+.location-logo {
+  width: 15px;
+  height: 20px;
+}
+/* Helpline */
+.helpline-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+/* Toll */
+.toll-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+/* Email */
+.email-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  padding-bottom: 59.5px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  width: 100%;
+  height: max-content;
+  background-color: #112330ff;
+  display: flex;
+}
+.copyright {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 32.5px;
+  margin-left: 8.4722vw;
+  margin-bottom: 29px;
+}
+.privacy-policy {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 32.5px;
+  margin-left: 39.23vw;
+  margin-bottom: 29px;
+}

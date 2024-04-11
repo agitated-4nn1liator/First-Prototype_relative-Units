@@ -1,0 +1,369 @@
+/* ================================ */
+/* ================================ */
+/* Header Section */
+/* ================================ */
+/* ================================ */
+
+/* Header Background */
+.header {
+  position: relative;
+  background-image: url(Assets/Support-header-png.png);
+  height: 638px;
+  width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Styling major header elements */
+.header-div {
+  display: flex;
+  padding-top: 26px;
+}
+/* Logo of the header section */
+.logo-header {
+  width: 40px;
+  height: auto;
+  margin-left: 8.82vw;
+  padding-right: 1.875vw;
+  margin-right: 1.875vw;
+  border-right: solid #fff 2px;
+}
+/* title of the header section */
+.title-header {
+  color: #fff;
+  font-size: 12px;
+  margin-right: 8.06vw;
+}
+/* Header search Form */
+.header-search-form {
+  display: flex;
+  height: 42px;
+  width: max-content;
+}
+.header-search-form input {
+  width: 19.375vw;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 35px;
+  background: transparent;
+  border: solid #fff 2px;
+  border-radius: 20px;
+  color: #fff;
+}
+.header-search-form input:focus {
+  outline: none;
+}
+/* Removing cross icon from search field */
+/* Compatible for Chrome and Safari */
+.header-search-form input[type="search"]::-webkit-search-decoration,
+.header-search-form input[type="search"]::-webkit-search-cancel-button,
+.header-search-form input[type="search"]::-webkit-search-results-button,
+.header-search-form input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+/* Compatible for Explorer and Edge */
+.header-search-form input[type="search"]::-ms-clear,
+.header-search-form input[type="search"]::-ms-reveal {
+  display: none;
+}
+/* styling the search button in search field of header */
+.search-button {
+  position: relative;
+  left: -33px;
+  top: 1.5px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.search-button:hover {
+  cursor: pointer;
+}
+/* Styling Navigation links in header section */
+.navigation-header {
+  display: flex;
+  align-items: center;
+  gap: 3.26vw;
+  margin-left: 5.5vw;
+  margin-right: 4.1vw;
+  margin-top: 9px;
+  height: fit-content;
+}
+.navigation-header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navigation-header a:hover {
+  cursor: pointer;
+}
+.current-nav {
+  font-weight: 600 !important;
+}
+.cart-button {
+  background: none;
+  border: none;
+}
+.cart-button:hover {
+  cursor: pointer;
+}
+.cart-logo {
+  width: 30px;
+  height: auto;
+}
+/* Styling the login/signup button in header */
+.login-button {
+  width: 11.25vw;
+  max-width: 162px;
+  height: 42px;
+  background-color: #c42116;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+.login-button:active {
+  font-weight: bold;
+}
+.header-txt {
+  color: #fff;
+  font-size: 60px;
+  margin-top: 103px;
+  display: flex;
+  justify-content: center;
+}
+/* Header categories */
+.header-categories {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 4.8611vw;
+}
+.categories-items {
+  width: 285px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categories-img {
+  width: 70px;
+  height: auto;
+  margin-top: 30px;
+}
+.categories-txt {
+  margin-top: 15px;
+  font-size: 22px;
+}
+.feedback-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sugg-div {
+  width: fit-content;
+  margin: auto;
+}
+/* ============================== */
+/* FAQ section */
+/* ============================== */
+.faq-div {
+  margin-top: 77px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.div-line {
+  width: 229px;
+  border-bottom: #000 2px dashed;
+}
+.faq-txt {
+  font-size: 50px;
+}
+/* Questions */
+.questions-section {
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 20px;
+  width: 794px;
+  background-color: #f5fbffff;
+  border: #3092dd 2px solid;
+  border-radius: 20px;
+}
+.answers {
+  padding: 0px 34px 25px 19px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.questions-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.questions-txt {
+  margin-left: 19px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.expand-butt {
+  background: none;
+  border: none;
+  margin-right: 34px;
+}
+.expand-butt:hover {
+  cursor: pointer;
+}
+.expand-arr {
+  font-size: 25px !important;
+}
+/* ================================ */
+/* Footer Section */
+/* ================================ */
+/* Footer top */
+.footer-top {
+  margin-top: 118px;
+  width: 100%;
+  height: max-content;
+  background-color: #1d3140ff;
+  display: flex;
+  position: relative;
+}
+/* Footer-top contents */
+/* Follow-section */
+.follow-section {
+  margin-top: 60px;
+  margin-left: 8.54167vw;
+}
+.logo-footer {
+  width: 67px;
+  height: auto;
+  margin-bottom: 29px;
+}
+.follow-head {
+  font-weight: bold;
+  color: #249ffe;
+  margin-bottom: 38px;
+}
+.follow-body {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.follow-links {
+  display: flex;
+  gap: 1.25vw;
+}
+.follow-buttons {
+  background: none;
+  border: none;
+}
+.follow-buttons:hover {
+  cursor: pointer;
+}
+/* Support Section */
+.support-section {
+  margin-top: 58px;
+  margin-left: 22.222vw;
+}
+.support-title {
+  color: #249ffe;
+  font-size: 18px;
+  font-weight: bold;
+}
+.support-nav {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  font-size: 18px;
+}
+.support-links {
+  text-decoration: none;
+  color: #fff;
+}
+/* Contact Section */
+.contact-section {
+  margin-top: 58px;
+  margin-left: 10.06944vw;
+}
+.contact-head {
+  color: #249ffe;
+  font-weight: bold;
+  font-size: 18px;
+}
+.contact-body {
+  color: #fff;
+  font-size: 18px;
+}
+/* Location */
+.location-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+.location-logo {
+  width: 15px;
+  height: 20px;
+}
+/* Helpline */
+.helpline-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+/* Toll */
+.toll-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+/* Email */
+.email-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  padding-bottom: 59.5px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  width: 100%;
+  height: max-content;
+  background-color: #112330ff;
+  display: flex;
+}
+.copyright {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 32.5px;
+  margin-left: 8.4722vw;
+  margin-bottom: 29px;
+}
+.privacy-policy {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 32.5px;
+  margin-left: 39.23vw;
+  margin-bottom: 29px;
+}

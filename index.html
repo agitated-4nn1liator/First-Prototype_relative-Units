@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Setting up viewport and zoom scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linking CSS files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="scrollbar-style.css" />
+    <link rel="stylesheet" href="preset.css" />
+    <!-- Link to Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linking Google Fonts Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- Webpage Title -->
+    <title>Laboratory Management System</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <!-- Container for all header elements -->
+      <div class="header-div">
+        <!-- Logo of the header section -->
+        <img
+          src="Assets/Logo.svg"
+          alt="Lab Management System Logo"
+          class="logo-header"
+        />
+        <!-- Header Title -->
+        <div class="title-header inter-font">
+          LABORATORY<br />MANAGEMENT<br />SYSTEM
+        </div>
+        <!-- Search Form -->
+        <form action="#" class="header-search-form">
+          <!-- Input Field -->
+          <input type="search" name="Search" class="inter-font" />
+          <!-- Search Button -->
+          <button class="search-button">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </form>
+        <nav class="navigation-header inter-font">
+          <a href="inventory-chemicals.html">Inventory</a>
+          <a href="support.html">Support</a>
+          <a href="about.html">About</a>
+          <a href="#"
+            ><button class="cart-button">
+              <img
+                class="cart-logo"
+                src="Assets/cart-button.png"
+                alt="cart"
+              /></button
+          ></a>
+        </nav>
+        <form action="sign-up.html">
+          <button class="login-button inter-font">Login / Sign up</button>
+        </form>
+      </div>
+    </header>
+    <!-- Article Section -->
+    <article>
+      <!-- Hero section -->
+      <div class="hero-section">
+        <!-- Text and Order button -->
+        <div class="hero-section-text">
+          <!-- Title of the text -->
+          <div class="title-heroSection poppins-regular">
+            Flexible
+            <div class="bold-title-heroSection poppins-semibold">
+              Management
+            </div>
+            <br />
+            Solutions for
+            <div class="bold-title-heroSection poppins-semibold">Lab</div>
+          </div>
+          <!-- Body of the text -->
+          <div class="body-heroSection inter-font">
+            about the project and how it works brief(Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Dui faucibus in ornare quam. Pulvinar
+            etiam non quam lacus suspendisse faucibus interdum posuere lorem. )
+          </div>
+          <form class="order-button-form" action="#">
+            <button class="inter-font order-button">Issue Now</button>
+          </form>
+        </div>
+        <div class="hero-section-img">
+          <img
+            class="labTest-heroSection"
+            src="Assets/Group 42.png"
+            alt="Hero Section Image"
+          />
+          <!-- Notification-form -->
+          <form action="#">
+            <!-- Notification button -->
+            <button class="notification-button">
+              <!-- Notification button logo -->
+              <span class="material-symbols-outlined">notifications</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- Browsing Section -->
+      <div class="browsing-section">
+        <!-- Browsing header -->
+        <div class="browsing-header poppins-medium">
+          Browse Management Categories
+        </div>
+        <!-- Browsing overview -->
+        <div class="browsing-overview">
+          <!-- Previous Order Details -->
+          <div class="order-overview overview-items">
+            <img
+              class="history-logo"
+              src="Assets/history.svg"
+              alt="History-logo"
+            />
+            <div class="order-overview-titleSubsection">
+              <div class="order-sub-item inter-font subItem-name">Name</div>
+              <div class="order-sub-item inter-font subItem-date">Date</div>
+              <div class="order-sub-item inter-font subItem-amount">gm/ml</div>
+            </div>
+            <div class="order-overview-tableSubsection">
+              <div class="order-overview-table table-name"></div>
+              <div class="order-overview-table table-date"></div>
+              <div class="order-overview-table table-amount"></div>
+            </div>
+            <form action="#">
+              <button class="browsing-link link-orders">
+                <span class="material-symbols-outlined north_east"
+                  >north_east</span
+                >
+              </button>
+            </form>
+            <div class="order-footer overview-footer inter-font">
+              Previous order details
+            </div>
+          </div>
+          <!-- Eqqipment Usage Tracker -->
+          <div class="equipment-overview overview-items">
+            <img
+              class="microscope-logo"
+              src="Assets/microscope1.svg"
+              alt="microscope-logo"
+            />
+            <div class="equipment-text-container">
+              <div class="equipment-text inter-font">Name of the Equipment</div>
+              <div class="equipment-text inter-font">Model No.</div>
+            </div>
+          </div>
+          <form action="#">
+            <button class="browsing-link link-equipments">
+              <span class="material-symbols-outlined north_east"
+                >north_east</span
+              >
+            </button>
+          </form>
+          <div class="equipment-footer overview-footer inter-font">
+            Equipment Usage Tracker
+          </div>
+          <!-- Low Chemical Info -->
+          <img
+            class="flask-logo"
+            src="Assets/flask-logo.svg"
+            alt="flask-logo"
+          />
+          <div class="chemical-overview overview-items">
+            <div class="chemical-title inter-font">Name of the chemical</div>
+          </div>
+          <form action="#">
+            <button class="browsing-link link-chemicals">
+              <span class="material-symbols-outlined north_east"
+                >north_east</span
+              >
+            </button>
+          </form>
+          <div class="chemical-footer overview-footer inter-font">
+            Low chemical info
+          </div>
+        </div>
+      </div>
+      <!-- Explore Cards -->
+      <div class="explore-card-mainContainer inter-font">
+        <!-- Chemical Explore Card -->
+        <div class="chemical-explore explore-card">
+          <div class="title-chemicalCard content-chemicalCard">Chemicals</div>
+          <div class="body-chemicalCard content-chemicalCard">
+            About chemicals briefly
+          </div>
+          <form class="content-chemicalCard" action="#">
+            <button class="button-chemicalCard inter-font">
+              View More
+              <span class="material-symbols-outlined"> north_east</span>
+            </button>
+          </form>
+        </div>
+        <!-- Tools Explore Card -->
+        <div class="tools-explore explore-card">
+          <div class="title-toolsCard content-toolsCard">Tools</div>
+          <div class="body-toolsCard content-toolsCard">
+            About tools briefly
+          </div>
+          <form class="content-toolsCard" action="#">
+            <button class="button-toolsCard inter-font">
+              View More
+              <span class="material-symbols-outlined"> north_east</span>
+            </button>
+          </form>
+        </div>
+        <!-- Equipment explore card -->
+        <div class="equipment-explore explore-card">
+          <div class="title-equipmentCard content-equipmentCard">
+            Equipments
+          </div>
+          <div class="body-equipmentCard content-equipmentCard">
+            About equipments briefly
+          </div>
+          <form class="content-equipmentCard" action="#">
+            <button class="button-equipmentCard inter-font">
+              View More
+              <span class="material-symbols-outlined"> north_east</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- About us section -->
+      <div class="about-us-main">
+        <div class="about-us-rect">
+          <img class="about-rect-img" src="Assets/About-us-rect.png" alt="" />
+        </div>
+        <div class="about-us-card">
+          <div class="about-us-content">
+            <img class="about-us-img" src="Assets/about-us-img.png" alt="" />
+            <div>
+              <div class="inter-font about-text-head">About Us</div>
+              <div class="inter-font about-text-body">
+                About Management System
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <form action="#">
+            <button class="to-top">
+              <span class="material-symbols-outlined to-top-icon"
+                >expand_less</span
+              >
+            </button>
+          </form>
+        </div>
+      </div>
+    </article>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-top">
+        <div class="follow-section">
+          <img
+            src="Assets/Logo.svg"
+            alt="Lab Management System Logo"
+            class="logo-footer"
+          />
+          <div class="inter-font follow-head">
+            Biotech Lab<br />Management System
+          </div>
+          <div class="inter-font follow-body">Follow Us</div>
+          <!-- Follow buttons -->
+          <div class="follow-links">
+            <!-- Facebok -->
+            <form action="#">
+              <button class="follow-buttons">
+                <img src="Assets/fb-logo.png" alt="Facebook" />
+              </button>
+            </form>
+            <!-- X - Twitter -->
+            <form action="#">
+              <button class="follow-buttons">
+                <img src="Assets/x-logo.png" alt="X" />
+              </button>
+            </form>
+            <!-- Instagram -->
+            <form action="#">
+              <button class="follow-buttons">
+                <img src="Assets/ig-logo.png" alt="Instagram" />
+              </button>
+            </form>
+            <!-- LinkedIn -->
+            <form action="#">
+              <button class="follow-buttons">
+                <img src="Assets/linkedin-logo.png" alt="LinkedIn" />
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="support-section">
+          <div class="support-title inter-font">Support</div>
+          <div class="support-nav">
+            <a class="support-links inter-font" href="#">FAQs</a>
+            <a class="support-links inter-font" href="#">Customer Sevices</a>
+            <a class="support-links inter-font" href="#">Terms & Conditions</a>
+          </div>
+        </div>
+        <div class="contact-section inter-font">
+          <div class="contact-head">Contact Us</div>
+          <!-- Location -->
+          <div class="location-group">
+            <img
+              class="location-logo"
+              src="Assets/location-logo.png"
+              alt="location-logo"
+            />
+            <div class="contact-body">
+              Chandigarh University, NH-05<br />
+              Chandigarh-Ludhiana Highway, Mohali,<br />
+              PUNJAB (INDIA)
+            </div>
+          </div>
+          <div class="contact-head">General Helpline No:</div>
+          <!-- Helpline -->
+          <div class="helpline-group">
+            <img src="Assets/helpline-logo.png" alt="Helpline-logo" />
+            <div class="contact-body">+91-160-3051003</div>
+          </div>
+          <div class="contact-head">Toll Free:</div>
+          <!-- Toll -->
+          <div class="toll-group">
+            <img src="Assets/tollfree-logo.png" alt="tollfree-logo" />
+            <div class="contact-body">1800 1212 88800</div>
+          </div>
+          <div class="contact-head">Email:</div>
+          <!-- Email -->
+          <div class="email-group">
+            <img src="Assets/email-logo.png" alt="email-logo" />
+            <div class="contact-body">cubiotech@cumail.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright inter-font">
+          Copyright 2024 &copy name of
+          <strong>Biotech Lab Management System</strong>. All rights reserved.
+        </div>
+        <a class="privacy-policy inter-font" href="#">Privacy Policy</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linking CSS files -->
+    <link rel="stylesheet" href="inventory-chemicals-style.css" />
+    <link rel="stylesheet" href="scrollbar-style.css" />
+    <link rel="stylesheet" href="preset.css" />
+    <!-- Link to Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linking Google Fonts Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Chemical Inventory</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <!-- Container for all header elements -->
+      <div class="header-div">
+        <!-- Logo of the header section -->
+        <img
+          src="Assets/Logo.svg"
+          alt="Lab Management System Logo"
+          class="logo-header"
+        />
+        <!-- Header Title -->
+        <div class="title-header inter-font">
+          LABORATORY<br />MANAGEMENT<br />SYSTEM
+        </div>
+        <!-- Search Form -->
+        <form action="#" class="header-search-form">
+          <!-- Input Field -->
+          <input type="search" name="Search" class="inter-font" />
+          <!-- Search Button -->
+          <button class="search-button">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </form>
+        <nav class="navigation-header inter-font">
+          <a href="index.html">Home</a>
+          <a class="curr-nav" href="inventory-chemicals.html">Inventory</a>
+          <a href="support.html">Support</a>
+          <a href="about.html">About</a>
+          <a href="#"
+            ><button class="cart-button">
+              <img
+                class="cart-logo"
+                src="Assets/cart-button.png"
+                alt="cart"
+              /></button
+          ></a>
+        </nav>
+        <form action="sign-up.html">
+          <button class="login-button inter-font">Login / Sign up</button>
+        </form>
+      </div>
+    </header>
+    <!-- Section divider -->
+    <div class="sec-div">
+      <img
+        class="div-arr"
+        src="Assets/Inventory Assets/div-tail.png"
+        alt="div-tail"
+      />
+      <div class="inventory-title poppins-medium">Issue Chemicals</div>
+      <img
+        class="div-arr"
+        src="Assets/Inventory Assets/div-arr.png"
+        alt="div-arr"
+      />
+    </div>
+    <!-- Article section -->
+    <article>
+      <!-- master container -->
+      <div class="master-container">
+        <!-- categories selector -->
+        <div class="category-selector">
+          <!-- chemicals -->
+          <div class="chemicals">
+            <img
+              class="chemicals-logo"
+              src="Assets/Inventory Assets/Chemicals-logo.svg"
+              alt="chemicals"
+            />
+            <div class="categories-txt inter-font">Chemicals</div>
+          </div>
+          <!-- equipments -->
+          <div class="equipments">
+            <img
+              class="equipments-logo"
+              src="Assets/Inventory Assets/equipments-logo.svg"
+              alt="equipments"
+            />
+            <div class="categories-txt inter-font">Equipments</div>
+          </div>
+          <!-- tools -->
+          <div class="tools">
+            <img
+              class="tools-logo"
+              src="Assets/Inventory Assets/tools-logo.png"
+              alt="tools"
+            />
+            <div class="categories-txt inter-font">Tools</div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

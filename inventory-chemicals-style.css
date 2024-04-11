@@ -1,0 +1,182 @@
+/* ================================ */
+/* ================================ */
+/* Header Section */
+/* ================================ */
+/* ================================ */
+
+/* Header Background */
+.header {
+  position: relative;
+  background-image: url(Assets/header.svg);
+  height: 250px;
+  width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Styling major header elements */
+.header-div {
+  display: flex;
+  padding-top: 26px;
+}
+/* Logo of the header section */
+.logo-header {
+  width: 40px;
+  height: auto;
+  margin-left: 8.82vw;
+  padding-right: 1.875vw;
+  margin-right: 1.875vw;
+  border-right: solid #fff 2px;
+}
+/* title of the header section */
+.title-header {
+  color: #fff;
+  font-size: 12px;
+  margin-right: 8.06vw;
+}
+/* Header search Form */
+.header-search-form {
+  display: flex;
+  height: 42px;
+  width: max-content;
+}
+.header-search-form input {
+  width: 19.375vw;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 35px;
+  background: transparent;
+  border: solid #fff 2px;
+  border-radius: 20px;
+  color: #fff;
+}
+.header-search-form input:focus {
+  outline: none;
+}
+/* Removing cross icon from search field */
+/* Compatible for Chrome and Safari */
+.header-search-form input[type="search"]::-webkit-search-decoration,
+.header-search-form input[type="search"]::-webkit-search-cancel-button,
+.header-search-form input[type="search"]::-webkit-search-results-button,
+.header-search-form input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+/* Compatible for Explorer and Edge */
+.header-search-form input[type="search"]::-ms-clear,
+.header-search-form input[type="search"]::-ms-reveal {
+  display: none;
+}
+/* styling the search button in search field of header */
+.search-button {
+  position: relative;
+  left: -33px;
+  top: 1.5px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.search-button:hover {
+  cursor: pointer;
+}
+/* Styling Navigation links in header section */
+.navigation-header {
+  display: flex;
+  align-items: center;
+  gap: 3.26vw;
+  margin-left: 5vw;
+  margin-right: 4.1vw;
+  margin-top: 9px;
+  height: fit-content;
+}
+.navigation-header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navigation-header a:hover {
+  cursor: pointer;
+}
+.curr-nav {
+  font-weight: 600 !important;
+}
+.cart-button {
+  background: none;
+  border: none;
+}
+.cart-button:hover {
+  cursor: pointer;
+}
+.cart-logo {
+  width: 30px;
+  height: auto;
+}
+/* Styling the login/signup button in header */
+.login-button {
+  width: 11.25vw;
+  max-width: 162px;
+  height: 42px;
+  background-color: #c42116;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+.login-button:active {
+  font-weight: bold;
+}
+/* ============================== */
+/* Section Divider */
+/* ============================= */
+.sec-div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  margin-right: 140px;
+}
+.div-arr {
+  width: 150px;
+}
+.inventory-title {
+  font-size: 18px;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #f5fbffff;
+}
+/* =========================== */
+/* Article Section */
+/* =========================== */
+.master-container {
+  display: flex;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.category-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.categories-txt {
+  font-size: 18px;
+}
+.chemicals-logo {
+  width: 45px;
+  height: auto;
+}
+.equipments-logo {
+  width: 45px;
+  height: auto;
+}
+.tools-logo {
+  width: 45px;
+  height: auto;
+}
