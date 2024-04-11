@@ -239,14 +239,14 @@
   margin-top: 19px;
   margin-left: 21px;
 }
-.issue-quant {
+.issue-prod {
   display: flex;
   align-items: center;
-  gap: 78px;
-  margin-top: 15px;
+  gap: 55px;
+  margin-top: 25px;
   margin-left: 21px;
 }
-.quantity {
+.availability {
   font-size: 18px;
   font-weight: 500;
 }

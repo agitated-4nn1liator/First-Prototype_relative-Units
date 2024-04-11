@@ -146,7 +146,7 @@
 }
 .inventory-title {
   font-size: 18px;
-  padding: 10px 15px;
+  padding: 10px 50px;
   border: 1px solid #000;
   border-radius: 25px;
   background-color: #f5fbffff;
@@ -239,14 +239,14 @@
   margin-top: 19px;
   margin-left: 21px;
 }
-.issue-quant {
+.issue-prod {
   display: flex;
   align-items: center;
-  gap: 78px;
-  margin-top: 15px;
+  gap: 55px;
+  margin-top: 25px;
   margin-left: 21px;
 }
-.quantity {
+.availability {
   font-size: 18px;
   font-weight: 500;
 }
