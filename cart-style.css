@@ -1,0 +1,455 @@
+/* ================================ */
+/* ================================ */
+/* Header Section */
+/* ================================ */
+/* ================================ */
+
+/* Header Background */
+.header {
+  position: relative;
+  background-image: url(Assets/header.svg);
+  height: 250px;
+  width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Styling major header elements */
+.header-div {
+  display: flex;
+  padding-top: 26px;
+}
+/* Logo of the header section */
+.logo-header {
+  width: 40px;
+  height: auto;
+  margin-left: 8.82vw;
+  padding-right: 1.875vw;
+  margin-right: 1.875vw;
+  border-right: solid #fff 2px;
+}
+/* title of the header section */
+.title-header {
+  color: #fff;
+  font-size: 12px;
+  margin-right: 8.06vw;
+}
+/* Header search Form */
+.header-search-form {
+  display: flex;
+  height: 42px;
+  width: max-content;
+}
+.header-search-form input {
+  width: 19.375vw;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 35px;
+  background: transparent;
+  border: solid #fff 2px;
+  border-radius: 20px;
+  color: #fff;
+}
+.header-search-form input:focus {
+  outline: none;
+}
+/* Removing cross icon from search field */
+/* Compatible for Chrome and Safari */
+.header-search-form input[type="search"]::-webkit-search-decoration,
+.header-search-form input[type="search"]::-webkit-search-cancel-button,
+.header-search-form input[type="search"]::-webkit-search-results-button,
+.header-search-form input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+/* Compatible for Explorer and Edge */
+.header-search-form input[type="search"]::-ms-clear,
+.header-search-form input[type="search"]::-ms-reveal {
+  display: none;
+}
+/* styling the search button in search field of header */
+.search-button {
+  position: relative;
+  left: -33px;
+  top: 1.5px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.search-button:hover {
+  cursor: pointer;
+}
+/* Styling Navigation links in header section */
+.navigation-header {
+  display: flex;
+  align-items: center;
+  gap: 3.26vw;
+  margin-left: 3vw;
+  margin-right: 4.1vw;
+  margin-top: 9px;
+  height: fit-content;
+}
+.navigation-header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navigation-header a:hover {
+  cursor: pointer;
+}
+.cart-button {
+  background: none;
+  border: none;
+}
+.cart-button:hover {
+  cursor: pointer;
+}
+.cart-logo {
+  width: 30px;
+  height: auto;
+}
+/* Styling the login/signup button in header */
+.login-button {
+  width: 11.25vw;
+  max-width: 162px;
+  height: 42px;
+  background-color: #c42116;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+.login-button:active {
+  font-weight: bold;
+}
+/* ============================ */
+/* Article section */
+/* ============================ */
+.main-container {
+  height: 748px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+}
+/* Cart Review section */
+.review-cart {
+  width: 692px;
+  height: 748px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #d4d4d4;
+  border-radius: 10px;
+}
+.review-cart-head {
+  display: flex;
+  gap: 242px;
+  margin-top: 30px;
+  margin-bottom: 29px;
+}
+.head-title {
+  font-size: 22px;
+}
+.item-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  width: 162px;
+  height: 36px;
+  background-color: #e0effaff;
+  border: 2px solid #4b55ce;
+  border-radius: 10px;
+}
+.cart-item {
+  width: 652px;
+  height: 200px;
+  margin-bottom: 15px;
+  background-color: #e0effaff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-img {
+  width: 137px;
+  height: 147px;
+}
+.item-details {
+  width: 407px;
+  display: flex;
+  margin-left: 21px;
+  flex-direction: column;
+  gap: 78px;
+}
+.details-title {
+  font-size: 19px;
+  font-weight: 500;
+}
+.details-quantity {
+  display: flex;
+  gap: 229px;
+}
+.quantity-text {
+  font-size: 19px;
+  font-weight: 500;
+}
+.change-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 102px;
+  height: 35px;
+  background-color: #4b55ce;
+  border-radius: 10px;
+}
+.remove-butt {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-top: 4px;
+}
+.remove-butt:hover {
+  cursor: pointer;
+}
+.counter {
+  font-size: 20px;
+  color: #fff;
+}
+.add-butt {
+  background: none;
+  border: none;
+  color: #fff;
+  margin-top: 4px;
+}
+.add-butt:hover {
+  cursor: pointer;
+}
+/* Issue Container */
+.issue-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+/* Student details */
+.student-details {
+  width: 487px;
+  height: 476px;
+  border: 2px #d4d4d4 solid;
+  border-radius: 10px;
+}
+.student-form-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  padding-left: 38px;
+}
+.student-title {
+  font-size: 22px;
+}
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 25px;
+  height: 336px;
+}
+.name {
+  margin-top: 10px;
+  width: 366px;
+  height: 50px;
+}
+.UID {
+  width: 366px;
+  height: 50px;
+}
+.section {
+  display: flex;
+  gap: 15px;
+}
+.section-field {
+  width: 163px;
+  height: 50px;
+}
+.branch-field {
+  width: 163px;
+  height: 50px;
+}
+.issue-date {
+  width: 366px;
+  height: 50px;
+}
+.divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 380px;
+  border: 1px dashed #4b55ce;
+}
+.input-text {
+  font-size: 19px;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  border: 2px solid #d4d4d4;
+}
+/* Issue section */
+.issue-butt-section {
+  width: 487px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.issue-butt {
+  width: 325px;
+  height: 50px;
+  color: #fff;
+  font-size: 22px;
+  background-color: #4b55ce;
+  border: none;
+  border-radius: 10px;
+}
+.issue-butt:hover {
+  cursor: pointer;
+}
+/* ================================ */
+/* Footer Section */
+/* ================================ */
+/* Footer top */
+.footer-top {
+  margin-top: 36px;
+  width: 100%;
+  height: max-content;
+  background-color: #1d3140ff;
+  display: flex;
+  position: relative;
+}
+/* Footer-top contents */
+/* Follow-section */
+.follow-section {
+  margin-top: 60px;
+  margin-left: 8.54167vw;
+}
+.logo-footer {
+  width: 67px;
+  height: auto;
+  margin-bottom: 29px;
+}
+.follow-head {
+  font-weight: bold;
+  color: #249ffe;
+  margin-bottom: 38px;
+}
+.follow-body {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.follow-links {
+  display: flex;
+  gap: 1.25vw;
+}
+.follow-buttons {
+  background: none;
+  border: none;
+}
+.follow-buttons:hover {
+  cursor: pointer;
+}
+/* Support Section */
+.support-section {
+  margin-top: 58px;
+  margin-left: 22.222vw;
+}
+.support-title {
+  color: #249ffe;
+  font-size: 18px;
+  font-weight: bold;
+}
+.support-nav {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  font-size: 18px;
+}
+.support-links {
+  text-decoration: none;
+  color: #fff;
+}
+/* Contact Section */
+.contact-section {
+  margin-top: 58px;
+  margin-left: 10.06944vw;
+}
+.contact-head {
+  color: #249ffe;
+  font-weight: bold;
+  font-size: 18px;
+}
+.contact-body {
+  color: #fff;
+  font-size: 18px;
+}
+/* Location */
+.location-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+.location-logo {
+  width: 15px;
+  height: 20px;
+}
+/* Helpline */
+.helpline-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+/* Toll */
+.toll-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+/* Email */
+.email-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15.5px;
+  padding-bottom: 59.5px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  width: 100%;
+  height: max-content;
+  background-color: #112330ff;
+  display: flex;
+}
+.copyright {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 32.5px;
+  margin-left: 8.4722vw;
+  margin-bottom: 29px;
+}
+.privacy-policy {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 32.5px;
+  margin-left: 39.23vw;
+  margin-bottom: 29px;
+}
